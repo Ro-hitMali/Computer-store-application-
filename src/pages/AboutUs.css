@@ -1,0 +1,52 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+  }
+  
+  .about-us, .social-media {
+    width: 45%;
+  }
+  
+  .about-us h2, .social-media h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-us p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-media li {
+    margin: 5px 0;
+  }
+  
+  .social-media a {
+    color: #f0a500;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .social-media a:hover {
+    color: #ff8000;
+  }
+  

@@ -1,0 +1,174 @@
+.home-container {
+    text-align: center;
+    padding: 50px;
+    display: block; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    background-color: #f9f9f9;
+  
+  }
+
+.hero-section {
+  margin: 100px;
+}
+
+.hero-section header h1{
+  font-size: 80px;
+  margin-bottom: 20px;
+  
+}
+
+.hero-section button{
+  background-color: #15f1f8;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.hero-section button:hover {
+    background-color: #003ef7;
+  }
+
+.products img {
+    max-width: 100%; 
+    max-height: 200px; 
+    display: block; 
+    margin: 7px; 
+  }
+
+.products button {
+    padding: 10px 20px;
+    background-color: #0750f9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+.home-container h1 {
+    color: #cf4500;
+    font-size: 65px;
+    margin-bottom: 20px;
+  }
+  
+.home-container p {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+.featured-products {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  
+.product {
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product:hover {
+    transform: translateY(-5px);
+    border: 2px solid #333;
+  } 
+
+  
+  .product img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .product p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #777;
+  }
+  
+  .product button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .product button:hover {
+    background-color: #555;
+  }
+  
+  .testimonials {
+    background-color: #f0f0f0;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .testimonial {
+    margin: 20px;
+  }
+  
+  .testimonial p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .testimonial h4 {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .cta-section {
+    padding: 50px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+  }
+  
+  .cta-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: antiquewhite;
+  }
+  
+  .cta-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-section input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .cta-section button {
+    padding: 10px 20px;
+    background-color: #f0a500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
